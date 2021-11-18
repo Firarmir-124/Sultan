@@ -1,0 +1,85 @@
+body {
+	background: #333;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+
+.card {
+	width: 700px;
+	min-height: 400px;
+	background: #7E7E7E;
+	border-radius: 30px;
+}
+
+.offer-title {
+	color: #fff;
+	font-size: 50px;
+	font-weight: 700;
+	margin: 20px 40px;
+}
+
+.offer-txt {
+	background: #fff;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.offer-txt h1 {
+	background-color: #c982ff;
+	width: 250px;
+	padding: 5px;
+	color: #fff;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.offer-txt ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.offer-txt li {
+	padding: 10px 0;
+	color: #333;
+
+}
+
+.offer-txt li span {
+	background: #c982ff;
+	padding: 2px;
+	border-radius: 5px;
+}
+
+.BlockIcon {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.buttonCard a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.buttonCard {
+	width: 200px;
+	height: 50px;
+	background: orange;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
