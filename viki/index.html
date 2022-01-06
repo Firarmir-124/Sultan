@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Викторина</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="quiz-over-modal">
+        <div class="content">
+            <div>
+                <h1></h1>
+                <p>Ты ответил на 
+                    <span id="correct-answer"></span> из 
+                    <span id="number-of-all-questions-2"></span> вопроса
+                    <span id='txt-quez'></span>
+                </p>
+                <button id="btn-try-again">Попробуй снова</button>
+            </div>
+            <div class="img"><img src="./img/true.svg" alt="nan" width="200px" height="200px"></div>
+        </div>
+    </div>
+    <h2 class="offer-title">Пройди тест, и найди секретное "слово"</h2>
+    <div class="quiz-container">
+        <div class="question-number">
+            <h3>Вопрос 
+                <span id="number-of-question"></span>
+                из
+                <span id="number-of-all-questions"></span>
+            </h3>
+        </div>
+        <div id="question"></div>
+        <div class="block_options">
+            <div class="options">
+                <div data-id="0" class="option option1"></div>
+                <div data-id="1" class="option option2"></div>
+                <div data-id="2" class="option option3"></div>
+                <div data-id="3" class="option option4"></div>
+            </div>
+            <div class="offer-img_options"></div>
+        </div>
+        <div class="button">
+            <button id="btn-next">Далее</button>
+        </div>
+        <div id="answers-tracker">
+            
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
